@@ -77,7 +77,7 @@ jobs:
             publish: true
             containerImage:
             testRunner: Invoke-Expression
-            testArguments: -excludedCategories performance GafferTest GafferVDBTest GafferUSDTest GafferSceneTest GafferDispatchTest GafferOSLTest GafferImageTest GafferUITest GafferImageUITest GafferSceneUITest GafferDispatchUITest GafferOSLUITest GafferUSDUITest GafferVDBUITest GafferDelightUITest GafferTractorTest GafferTractorUITest
+            testArguments: -excludedCategories performance GafferTest GafferVDBTest GafferUSDTest GafferSceneTest GafferDispatchTest GafferOSLTest GafferImageTest GafferUITest GafferImageUITest GafferSceneUITest GafferDispatchUITest GafferOSLUITest GafferUSDUITest GafferVDBUITest GafferDelightUITest GafferTractorTest GafferTractorUITest GafferArnoldTest GafferArnoldUITest IECoreArnoldTest
             sconsCacheMegabytes: 400
 
     runs-on: ${{ matrix.os }}
